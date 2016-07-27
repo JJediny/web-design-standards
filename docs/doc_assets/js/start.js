@@ -10,6 +10,11 @@ $(function (){
     $('body').toggleClass('mobile-sidenav-active');
     e.preventDefault();
   });
+  $('.usa-header-button-search').on('click touchstart', function (e) {
+    $('.usa-header-search').toggleClass('is-visible');
+    $('.usa-header-button-search', 'body').toggleClass('is-hidden');
+    e.preventDefault();
+  });
   require('./components/generate-code-snippets');
   require('./components/handle-disabled-lints');
   setTimeout(function () {
