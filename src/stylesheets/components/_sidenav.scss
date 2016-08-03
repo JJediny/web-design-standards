@@ -39,7 +39,7 @@
   }
 }
 
-@mixin usa-sidenav-sub_list {
+@mixin usa-sidenav-sublist {
   margin: 0;
   width: 100%;
 
@@ -75,5 +75,5 @@
 }
 
 .usa-sidenav-sub_list {
-  @include usa-sidenav-sub_list;
+  @include usa-sidenav-sublist;
 }
